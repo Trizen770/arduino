@@ -58,11 +58,12 @@ void loop()
         digitalWrite(pinLed, LOW);
         digitalWrite(pinLed2, LOW);
         digitalWrite(pinLed3, LOW);
-      delay(700);
+
 
         // Update the state of the led  
         state = 0; 
       }
+        delay(100);
     }
 
     // // in here
